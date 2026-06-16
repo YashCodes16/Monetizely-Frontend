@@ -43,7 +43,7 @@ export default function QuoteBuilder() {
     const [totalProducts, setTotalProducts] = useState(0)
 
     // Pagination state
-    const [page, setPage] = useState(1)
+    const [_page, setPage] = useState(1)
     const [hasMore, setHasMore] = useState(false)
     const [loadingMore, setLoadingMore] = useState(false)
     const sentinelRef = useRef<HTMLDivElement>(null)
